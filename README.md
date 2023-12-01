@@ -1,5 +1,5 @@
 # Front-end-Final
-<div style="width: 90vw; text-align: center;"> Atividade final do modulo de front-end </div>    
+<div align="center"> Atividade final do modulo de front-end </div>    
 
 
 
