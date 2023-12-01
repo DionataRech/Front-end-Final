@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    background-color: black;
+    background-image: linear-gradient( to right, #04f2a3d0, transparent, #3d4a73ab ); 
+    width: 100vw;
+    height: 100vh;
+    font-family: "Oswald", sans-serif;
+} 
+
+span {
+    color: rgba(0, 0, 255, 0.703);
+}
+
+.span2 {
+    color:#f2e3b339;
+    font-size: 1.5em;
+    font-size: bold;
+    font-family: "Noto Sans SC", sans-serif !important;
+    text-transform: uppercase;
+}
+
+main {
+    display: flex;
+}
+
+.email {
+    text-decoration: none;
+    color: blue;
+    }
+
+.email:hover {
+   color: white;
+}
+
+.section1 {
+    display:flex ;
+    flex-direction:column;
+   justify-content:center;
+    background-color:#1d1d1d1f;
+    width:23vw;
+    height:97vh;
+    align-items:center;
+    margin:1vw;
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: left;
+    margin:2vw;
+    width: 100%;
+}
+
+section img {
+    border: 6px solid black;
+    border-radius: 50%;
+    max-width: 15vw;
+    max-height: auto;  
+        
+}
+
+section nav a{
+    margin-top: 20px;
+    text-decoration: none;
+    color: rgb(250, 255, 240);
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    padding: 15px;    
+}
+
+a:hover{
+    color:#000000 ;
+    transform:scale(1.2);
+}
+
+main h1 {
+    color: #ffffff;
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-size: 100px;
+  }
+
+main h4 {
+    color: #ffffff;
+    font-size: 1.5em;
+    font-size: bold;
+    font-family: "Noto Sans SC", sans-serif !important;
+  }
+
+.article3 { 
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    height: 60vh;
+    width: 100%;
+}
+
+div {
+    background-color:#f2e3b30a;
+        margin: 40px;
+        font-weight: bold;
+        font-family: "Noto Sans SC", sans-serif;
+        font-size: 1rem;
+        color:#01fffb ;
+        letter-spacing: 1.5px;
+        text-align: center;
+        padding: 40px;
+        border-radius: 40px;
+}
+
+
+.artigo4 {
+    display: flex;
+}
+
+.logos {
+    height: 50px;
+    width:50px;
+    border:none;
+    margin-left: 20px;
+        
+}
+.logos:hover {
+   background-color:black;
+   transform:scale(1.2);
+}
+ 
+ol {
+    border-radius:40px;
+    padding:5%;
+    background-color: #f2e3b30a;
+    list-style:upper-alpha;
+    color: #01fffb;
+    justify-content: space-between;
+    display: flex;
+    font-size: 1vw;
+    margin: 20px;
+}
+
+ul {
+    margin: 20px;
+    display: flex;
+    border-radius:40px;
+    padding:2%;
+    background-color: #f2e3b30a;
+    color: #01fffb;
+    font-size: 1.3rem;
+    margin: 30px;
+    justify-content: space-evenly;
+}
+
